@@ -50,7 +50,7 @@ The main function in main.py performs the following steps:
 
 ## Testing
 ### Unit tests
-Unfortunately, due to limitations in time, I didn't debug the tests for this project. I have written some tests in the tests.py file, but they are not working. I would have used the unittest module to write the tests, and I would have used the mock module to mock the database connection and test the functions in isolation.
+Unfortunately, due to limitations in time, I didn't finish implementing the tests for this project. I have written some tests in the tests.py file, but they are not working in an automated way. If you install the requirements in a Python env, you should be able to run them with VSCode debug tool for Python. Given more time, I would like to have automated the tests to run with the Docker container and also added more tests.
 
 ### Manual testing with pgAdmin
 To test the script manually, you can use pgAdmin to query the database and visualize the data. You can also use pgAdmin to view the logs and errors table to see any errors encountered during processing.
