@@ -11,12 +11,19 @@ You need to have the following installed:
 ## Installing
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
+git clone git@github.com:patcky/dema-ai-assignment.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd yourrepository
+cd dema-ai-assignment
+```
+
+Make sure you have Docker installed.
+
+Set the environment variables in the .env file:
+```bash
+cp .env.example .env
 ```
 
 Pull the dependant Docker images:
