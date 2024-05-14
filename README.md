@@ -28,14 +28,13 @@ docker pull python
 
 Build the Docker image:
 ```bash
-docker build -t dema-ai-assignment .
+docker-compose build
 ```
 
 ## Usage
 Run the Docker container:
 ```bash
-docker-compose build && docker-compose up -d
-docker run -it --rm dema-ai-assignment
+docker-compose up -d
 ```
 
 ## Functionality
